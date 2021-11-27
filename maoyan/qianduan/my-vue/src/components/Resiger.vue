@@ -6,7 +6,7 @@
 			<div class="loginbox" >
 				<input type="text" name="username" placeholder="用户名" v-model="username" class="user"/>
 				<input type="password" name="pwd" placeholder="密码" v-model="pwd" class="pwd"/>
-				<div class="loginbtn" @click="getdata">注册</div>
+				<div class="loginbtn" @click="register">注册</div>
 			</div>
 		</div>
 		</div>
